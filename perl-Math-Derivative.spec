@@ -5,7 +5,7 @@ Summary:	Math::Derivative perl module
 Summary(pl):	Modu³ perla Math::Derivative
 Name:		perl-Math-Derivative
 Version:	0.01
-Release:	9
+Release:	10
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
