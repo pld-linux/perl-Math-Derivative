@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla Math-Derivative
 Name:		perl-Math-Derivative
 Version:	0.01
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Derivative-%{version}.tar.gz
-Patch:		perl-Math-Derivative-man.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Derivative-%{version}.tar.gz
+Patch0:		perl-Math-Derivative-man.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -16,7 +16,7 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-Derivative - Numeric 1st and 2nd order differentiation. 
+Math-Derivative - Numeric 1st and 2nd order differentiation.
 
 %description -l pl
 Modu³ perla Math-Derivative.
