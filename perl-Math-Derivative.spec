@@ -3,7 +3,7 @@ Summary:	Math-Derivative perl module
 Summary(pl):	Modu³ perla Math-Derivative
 Name:		perl-Math-Derivative
 Version:	0.01
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
