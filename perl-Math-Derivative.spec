@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Derivative
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math-Derivative perl module
 Summary(pl):	Modu³ perla Math-Derivative
 Name:		perl-Math-Derivative
 Version:	0.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Math-Derivative - Numeric 1st and 2nd order differentiation.
 Modu³ perla Math-Derivative.
 
 %prep
-%setup -q -n Math-Derivative-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
