@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Derivative
-Summary:	Math-Derivative perl module
-Summary(pl):	Modu³ perla Math-Derivative
+Summary:	Math::Derivative perl module
+Summary(pl):	Modu³ perla Math::Derivative
 Name:		perl-Math-Derivative
 Version:	0.01
 Release:	8
@@ -16,10 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-Derivative - Numeric 1st and 2nd order differentiation.
+Math::Derivative - Numeric 1st and 2nd order differentiation.
 
 %description -l pl
-Modu³ perla Math-Derivative.
+Modu³ perla Math::Derivative.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
