@@ -1,0 +1,9 @@
+--- Derivative.pm~	Tue Dec 26 18:40:18 1995
++++ Derivative.pm	Sun Oct 17 01:46:38 1999
+@@ -1,5 +1,6 @@
+ # functions for calculating derivatives of data
+ # $Id$
++
+ =head1 NAME
+ 
+  Math::Derivative - Numeric 1st and 2nd order differentiation
