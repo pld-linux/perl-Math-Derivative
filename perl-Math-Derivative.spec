@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Math::Derivative
 Name:		perl-Math-Derivative
 Version:	0.01
 Release:	10
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a359b1b4b545c03f4147594fc64420a2
