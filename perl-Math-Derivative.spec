@@ -2,7 +2,7 @@
 %define		pdir	Math
 %define		pnam	Derivative
 Summary:	Math::Derivative perl module
-Summary(pl):	Modu³ perla Math::Derivative
+Summary(pl.UTF-8):   ModuÅ‚ perla Math::Derivative
 Name:		perl-Math-Derivative
 Version:	0.01
 Release:	11
@@ -20,9 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Math::Derivative - Numeric 1st and 2nd order differentiation.
 
-%description -l pl
-Modu³ perla Math::Derivative - obliczaj±cy pochodne pierwszego i
-drugiego rzêdu.
+%description -l pl.UTF-8
+ModuÅ‚ perla Math::Derivative - obliczajÄ…cy pochodne pierwszego i
+drugiego rzÄ™du.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
