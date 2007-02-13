@@ -2,7 +2,7 @@
 %define		pdir	Math
 %define		pnam	Derivative
 Summary:	Math::Derivative perl module
-Summary(pl.UTF-8):   Moduł perla Math::Derivative
+Summary(pl.UTF-8):	Moduł perla Math::Derivative
 Name:		perl-Math-Derivative
 Version:	0.01
 Release:	11
