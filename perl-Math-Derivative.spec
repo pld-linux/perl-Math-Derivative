@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	Derivative
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Derivative perl module
 Summary(pl.UTF-8):	Moduł perla Math::Derivative
 Name:		perl-Math-Derivative
@@ -12,6 +12,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a359b1b4b545c03f4147594fc64420a2
 Patch0:		%{name}-man.patch
+URL:		http://search.cpan.org/dist/Math-Derivative/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
