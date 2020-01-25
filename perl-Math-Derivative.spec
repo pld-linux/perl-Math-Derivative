@@ -1,6 +1,5 @@
 %define		pdir	Math
 %define		pnam	Derivative
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Derivative perl module
 Summary(pl.UTF-8):	Moduł perla Math::Derivative
 Name:		perl-Math-Derivative
